@@ -1,0 +1,169 @@
+/* Estilos gerais */
+.ttl{
+  margin-bottom: 10rem;
+  font-size: 3rem;
+  margin-top: 14rem;
+  text-align: center;
+}
+
+
+
+::-webkit-scrollbar{
+  width: 0.7rem;
+  background-color: hsl(220, 11%, 11%);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: red;
+  border-radius: 5px;
+  
+}
+
+html{scroll-behavior:smooth}
+
+/* estilos */
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: 	#282b30;
+    width: 90vw;
+    margin: auto;
+    color: white;
+  }
+  
+  header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .itens {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    font-size: 18px;
+  }
+  
+ .item {
+    margin-right: 20px;
+
+  }
+
+  .item a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+.logo h1{
+    font-size: 20px;
+}
+
+
+  /* intro */
+
+  .container2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2.6rem;
+  }
+
+  .container2 h1{
+    font-size: 12rem;
+  }
+
+  .container2 h3{
+    margin-top: -1rem;
+    font-size: 2rem;
+
+  }
+
+.container2 button{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    width: 12rem;
+    height: 4rem;
+    border: none;
+    border-radius: 3px;
+    background-color: hsl(0, 70%, 49%);
+    box-shadow: 0 4px 10px hsl(0, 70%, 30%);
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.container2 button:hover{
+transform: scale(1.05);
+transition-duration: 0.3s;
+}
+
+  
+
+  /* EU */
+
+  .containerEu{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 14rem;
+  }
+
+
+
+  .containerEu p{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-right: 10rem;
+    line-height: 3rem;
+
+  }
+
+  /* projetos */
+
+  .containerProjetos{
+    background: #000;
+    margin-top: 5rem ;
+    text-align: center;
+  }
+
+
+  /* aside */
+
+  .containeraside{
+    /* background-color: hsla(0, 0%, 100%, 0.404); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    flex-direction: column;
+    width: 3rem;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 36vh;
+    float: left;
+
+  }
+
+  .containeraside a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+
+
+  .containeraside a:hover{
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  }
+ 
