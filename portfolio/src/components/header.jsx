@@ -12,7 +12,7 @@ function Header(){
         <li className="item"><a href="#">Início</a></li>
         <li className="item"><a href="#ponto1">Sobre mim</a></li>
         <li className="item"><a href="#">Projetos</a></li>
-        <li className="item"><a href="#">Contactos</a></li>
+        <li className="item"><a href="#">Contactosss</a></li>
     </ul>
 </header>
 
