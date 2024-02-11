@@ -15,8 +15,11 @@ function App() {
       <Eu/>
       <h1 className="ttl">Projetos📚</h1>
       <Projetos ttl = "t1" descricao = "Projeto desenvolvido no âmbito da cadeira de BDTSS"/>
-      <Projetos ttl = "tt1" descricao = "Projeto desenvolvido no âmbito da cadeira de LAB4"></Projetos>
-      <Projetos ttl = "ttt1" descricao = "Projeto desenvolvido no âmbito da cadeira de BDTSS"/>
+      <Projetos ttl = "t1" descricao = "Projeto desenvolvido no âmbito da cadeira de BDTSS"/>
+      <Projetos ttl = "t1" descricao = "Projeto desenvolvido no âmbito da cadeira de BDTSS"/>
+      <Projetos ttl = "t1" descricao = "Projeto desenvolvido no âmbito da cadeira de BDTSS"/>
+      
+
 
 
     </>
