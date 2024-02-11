@@ -18,7 +18,7 @@ function App() {
       <Projetos ttl = "t1" descricao = "Projeto desenvolvido no âmbito da cadeira de BDTSS"/>
       <Projetos ttl = "t1" descricao = "Projeto desenvolvido no âmbito da cadeira de BDTSS"/>
       <Projetos ttl = "t1" descricao = "Projeto desenvolvido no âmbito da cadeira de BDTSS"/>
-      
+
 
 
 
