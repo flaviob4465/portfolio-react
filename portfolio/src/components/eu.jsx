@@ -2,7 +2,7 @@ function Eu(){
 
     return(
        <> 
-        <h1 id="ponto1" className="ttl">Quem é que eu sou? 🤔</h1>
+        <h1 id="ponto1" className="ttl">Quem é que eu sou?🤔</h1>
         <div className="containerEu">
             
             <img src="https://placehold.co/546x600" alt="" />

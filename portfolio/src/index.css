@@ -123,7 +123,7 @@ transition-duration: 0.3s;
     font-size: 1.5rem;
     text-align: justify;
     margin-right: 10rem;
-    line-height: 3rem;
+    line-height: 2.5rem;
 
   }
 
@@ -164,6 +164,57 @@ transition-duration: 0.3s;
 
   .containeraside a:hover{
   transform: scale(1.1);
-  transition-duration: 0.3s;
+  transition-duration: 0.3s;  
   }
  
+  /* ^projetos */
+
+
+
+  .card{
+    display: inline-block;
+    min-height: 38rem;
+    width: 29rem;
+    padding: 20px;
+    /* border: 1px solid hsl(231, 14%, 10%); */
+    vertical-align: top;
+    margin-right: 70.0px;
+    margin-bottom: 50px;
+    background-color: hsl(214, 5%, 27%);
+    border-radius: 12px;
+    text-align: center;
+    left: 100px;
+    box-shadow: 0px 4px 20px hsl(214, 5%, 30%);
+    transition: 0.3s ease-in-out;
+  }
+  .card :last-child{
+    margin-right: none;
+  }
+
+  .card:hover{
+    transform: scale(1.02);
+    transition-duration: 0.3s;
+    
+    }
+  
+.card-image{
+
+    border-radius: 10px;
+    height: auto;
+    margin-bottom: 10px;
+  text-align: center;
+  }
+  
+.card-title{
+    font-family: arial, sans-serif;
+    margin: 0;
+    color: hsl(0, 0%, 100%); 
+    text-align: center;
+  }
+  
+.card-text{
+    font-family: arial, sans-serif;
+    color: hsl(0, 0%, 100%);
+    line-height: 1.5rem;
+    text-align: center;
+  }
